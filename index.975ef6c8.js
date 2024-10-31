@@ -5728,9 +5728,9 @@ var _navbarDefault = parcelHelpers.interopDefault(_navbar);
 var _footer = require("./components/footer");
 var _footerDefault = parcelHelpers.interopDefault(_footer);
 (0, _wixAPI.loadData)("homepage");
-const router = (0, _reactRouterDom.createHashRouter)([
+const router = (0, _reactRouterDom.createBrowserRouter)([
     {
-        path: "/",
+        path: "/profile",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homepageDefault.default), {}, void 0, false, {
             fileName: "src/App.js",
             lineNumber: 29,
@@ -5738,7 +5738,7 @@ const router = (0, _reactRouterDom.createHashRouter)([
         }, undefined)
     },
     {
-        path: "/software",
+        path: "/profile/software",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _softwareDefault.default), {}, void 0, false, {
             fileName: "src/App.js",
             lineNumber: 33,
@@ -5746,7 +5746,7 @@ const router = (0, _reactRouterDom.createHashRouter)([
         }, undefined)
     },
     {
-        path: "/software/resume",
+        path: "/profile/software/resume",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _resumeDefault1.default), {}, void 0, false, {
             fileName: "src/App.js",
             lineNumber: 37,
@@ -5754,7 +5754,7 @@ const router = (0, _reactRouterDom.createHashRouter)([
         }, undefined)
     },
     {
-        path: "/software/technologies",
+        path: "/profile/software/technologies",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _technologiesDefault.default), {}, void 0, false, {
             fileName: "src/App.js",
             lineNumber: 41,
@@ -5762,7 +5762,7 @@ const router = (0, _reactRouterDom.createHashRouter)([
         }, undefined)
     },
     {
-        path: "/music",
+        path: "/profile/music",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _musicDefault.default), {}, void 0, false, {
             fileName: "src/App.js",
             lineNumber: 45,
@@ -5770,7 +5770,7 @@ const router = (0, _reactRouterDom.createHashRouter)([
         }, undefined)
     },
     {
-        path: "/music/resume",
+        path: "/profile/music/resume",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _resumeDefault.default), {}, void 0, false, {
             fileName: "src/App.js",
             lineNumber: 49,
@@ -5778,7 +5778,7 @@ const router = (0, _reactRouterDom.createHashRouter)([
         }, undefined)
     },
     {
-        path: "/music/resources",
+        path: "/profile/music/resources",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _resourcesDefault.default), {}, void 0, false, {
             fileName: "src/App.js",
             lineNumber: 53,
@@ -5786,7 +5786,7 @@ const router = (0, _reactRouterDom.createHashRouter)([
         }, undefined)
     },
     {
-        path: "/music/events",
+        path: "/profile/music/events",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _eventsDefault.default), {}, void 0, false, {
             fileName: "src/App.js",
             lineNumber: 57,
