@@ -2,8 +2,11 @@ import React from 'react'
 import "./App.styl"
 
 import {
-    createBrowserRouter,
+    createHashRouter,
     RouterProvider,
+    Route,
+    Routes,
+    HashRouter
 } from "react-router-dom"
 
 import { loadData } from "./services/wixAPI"
@@ -23,53 +26,59 @@ import Footer from "./components/footer"
 
 loadData("homepage")
 
-const router = createBrowserRouter([
+const router = createHashRouter([
     {
-      path: "/profile",
+      path: "/",
       element: <Homepage/>
     },
     {
-      path: "/profile/software",
+      path: "/software",
       element: <Software/>
     },
     {
-      path: "/profile/software/resume",
+      path: "/software/resume",
       element: <SoftwareResume/>
     },
     {
-      path: "/profile/software/technologies",
+      path: "/software/technologies",
       element: <SoftwareTechnologies/>
     },
     {
-      path: "/profile/music",
+      path: "/music",
       element: <Music/>
     },
     {
-      path: "/profile/music/resume",
+      path: "/music/resume",
       element: <MusicResume/>
     },
     {
-      path: "/profile/music/resources",
+      path: "/music/resources",
       element: <MusicResources/>
     },
     {
-      path: "/profile/music/events",
+      path: "/music/events",
       element: <MusicEvents/>
     },
     {
-      path: "*",
+      path: "/*",
       element: <NotFound/>
     }
   ])
   
   function App() {
     return (
-      <div className="app-wrapper">
-        <Navbar/>
-        <RouterProvider router={router} />
-        <Footer/>
-      </div>
+        <div className="app-wrapper">
+            <Navbar/>
+            <RouterProvider router={router} />
+            <Footer/>
+        </div>
     );
-  }
-  
-  export default App;
+}
+
+export default App;
+{/* <HashRouter>
+    <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/software" element={<Software />} />
+    </Routes>
+    </HashRouter> */}
