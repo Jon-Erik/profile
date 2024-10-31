@@ -2,7 +2,7 @@ import React from 'react'
 import "./App.styl"
 
 import {
-    createHashRouter,
+    createBrowserRouter,
     RouterProvider,
 } from "react-router-dom"
 
@@ -23,37 +23,37 @@ import Footer from "./components/footer"
 
 loadData("homepage")
 
-const router = createHashRouter([
+const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/profile",
       element: <Homepage/>
     },
     {
-      path: "/software",
+      path: "/profile/software",
       element: <Software/>
     },
     {
-      path: "/software/resume",
+      path: "/profile/software/resume",
       element: <SoftwareResume/>
     },
     {
-      path: "/software/technologies",
+      path: "/profile/software/technologies",
       element: <SoftwareTechnologies/>
     },
     {
-      path: "/music",
+      path: "/profile/music",
       element: <Music/>
     },
     {
-      path: "/music/resume",
+      path: "/profile/music/resume",
       element: <MusicResume/>
     },
     {
-      path: "/music/resources",
+      path: "/profile/music/resources",
       element: <MusicResources/>
     },
     {
-      path: "/music/events",
+      path: "/profile/music/events",
       element: <MusicEvents/>
     },
     {
