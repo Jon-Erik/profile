@@ -5728,7 +5728,7 @@ var _navbarDefault = parcelHelpers.interopDefault(_navbar);
 var _footer = require("./components/footer");
 var _footerDefault = parcelHelpers.interopDefault(_footer);
 (0, _wixAPI.loadData)("homepage");
-const router = (0, _reactRouterDom.createHashRouter)([
+const router = (0, _reactRouterDom.createBrowserRouter)([
     {
         path: "/",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homepageDefault.default), {}, void 0, false, {
