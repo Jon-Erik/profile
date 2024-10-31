@@ -17,7 +17,8 @@
     "modern-normalize": "^3.0.1",
     "parcel-bundler": "^1.12.5",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.27.0"
   },
   "devDependencies": {
     "@parcel/transformer-stylus": "^2.12.0",
