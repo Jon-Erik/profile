@@ -5728,76 +5728,76 @@ var _navbarDefault = parcelHelpers.interopDefault(_navbar);
 var _footer = require("./components/footer");
 var _footerDefault = parcelHelpers.interopDefault(_footer);
 (0, _wixAPI.loadData)("homepage");
-const router = (0, _reactRouterDom.createBrowserRouter)([
+const router = (0, _reactRouterDom.createHashRouter)([
     {
-        path: "/profile",
+        path: "/",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homepageDefault.default), {}, void 0, false, {
             fileName: "src/App.js",
-            lineNumber: 29,
+            lineNumber: 32,
             columnNumber: 16
         }, undefined)
     },
     {
-        path: "/profile/software",
+        path: "/software",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _softwareDefault.default), {}, void 0, false, {
             fileName: "src/App.js",
-            lineNumber: 33,
+            lineNumber: 36,
             columnNumber: 16
         }, undefined)
     },
     {
-        path: "/profile/software/resume",
+        path: "/software/resume",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _resumeDefault1.default), {}, void 0, false, {
             fileName: "src/App.js",
-            lineNumber: 37,
+            lineNumber: 40,
             columnNumber: 16
         }, undefined)
     },
     {
-        path: "/profile/software/technologies",
+        path: "/software/technologies",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _technologiesDefault.default), {}, void 0, false, {
             fileName: "src/App.js",
-            lineNumber: 41,
+            lineNumber: 44,
             columnNumber: 16
         }, undefined)
     },
     {
-        path: "/profile/music",
+        path: "/music",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _musicDefault.default), {}, void 0, false, {
             fileName: "src/App.js",
-            lineNumber: 45,
+            lineNumber: 48,
             columnNumber: 16
         }, undefined)
     },
     {
-        path: "/profile/music/resume",
+        path: "/music/resume",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _resumeDefault.default), {}, void 0, false, {
             fileName: "src/App.js",
-            lineNumber: 49,
+            lineNumber: 52,
             columnNumber: 16
         }, undefined)
     },
     {
-        path: "/profile/music/resources",
+        path: "/music/resources",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _resourcesDefault.default), {}, void 0, false, {
             fileName: "src/App.js",
-            lineNumber: 53,
+            lineNumber: 56,
             columnNumber: 16
         }, undefined)
     },
     {
-        path: "/profile/music/events",
+        path: "/music/events",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _eventsDefault.default), {}, void 0, false, {
             fileName: "src/App.js",
-            lineNumber: 57,
+            lineNumber: 60,
             columnNumber: 16
         }, undefined)
     },
     {
-        path: "*",
+        path: "/*",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _notFoundDefault.default), {}, void 0, false, {
             fileName: "src/App.js",
-            lineNumber: 61,
+            lineNumber: 64,
             columnNumber: 16
         }, undefined)
     }
@@ -5808,26 +5808,26 @@ function App() {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 68,
-                columnNumber: 9
+                lineNumber: 71,
+                columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.RouterProvider), {
                 router: router
             }, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 69,
-                columnNumber: 9
+                lineNumber: 72,
+                columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 70,
-                columnNumber: 9
+                lineNumber: 73,
+                columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/App.js",
-        lineNumber: 67,
-        columnNumber: 7
+        lineNumber: 70,
+        columnNumber: 9
     }, this);
 }
 _c = App;
