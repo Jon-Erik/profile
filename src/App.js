@@ -1,12 +1,15 @@
-import React from 'react';
+import React from 'react'
+import "./App.styl"
+//import 'modern-normalize.css'
+
 
 const App = () => {
   return (
-    <div>
+    <div class="app-wrapper">
       <h1>Hello, It's my first React App!</h1>
        <h2>Happy Coding!!</h2>
     </div>
   );
 };
 
-export default App;
+export default App
