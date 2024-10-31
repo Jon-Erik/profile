@@ -2,7 +2,7 @@ import React from 'react'
 import "./App.styl"
 
 import {
-    createHashRouter,
+    createBrowserRouter,
     RouterProvider,
     Route,
     Routes,
@@ -26,7 +26,7 @@ import Footer from "./components/footer"
 
 loadData("homepage")
 
-const router = createHashRouter([
+const router = createBrowserRouter([
     {
       path: "/",
       element: <Homepage/>
